@@ -23,7 +23,7 @@ body{
 
 .contenido-3{
 
-    margin-top: 35%;
+    margin-top: 0;
 }
 
 .botones{
@@ -74,7 +74,7 @@ body{
 }
 
 .contenedor-formulario{
-    margin-top: 25%;
+    margin-top: 10%;
     padding: 1rem;
 }
 

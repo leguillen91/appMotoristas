@@ -1,0 +1,53 @@
+header{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+}
+
+header h2{
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+}
+
+.contenedor-imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+
+}
+
+
+.contenido-3{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35%;
+}
+
+.botones{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#boton-entrar{
+
+    width: 260px;
+    height: 55px;
+    border-radius: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    background-color: #0C79FA;
+}
+
