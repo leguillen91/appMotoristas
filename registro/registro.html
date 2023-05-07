@@ -34,11 +34,11 @@
                     </div>
 
                     <div class="form-group">
-                        <input type="text" class="form-control" id="celular" placeholder="Celular">
+                        <input type="number" class="form-control" id="celular" placeholder="Celular">
                     </div>
 
                     <div class="form-group">
-                        <input type="text" class="form-control" id="correo" placeholder="Correo">
+                        <input type="email" class="form-control" id="email" placeholder="Correo">
                     </div>
 
                     <div class="form-group">
@@ -53,16 +53,17 @@
         <footer class="contenido-3">
     
             <div class="botones">
-            <button type="button" id="boton-entrar" class="btn btn-primary">Continuar</button>
+            <button onclick="validarRegistro()" type="button" id="boton-entrar" class="btn btn-primary">Continuar</button>
     
             <div class="contenido-4">
                 <p>Ya tienes cuenta? </p>
-                <button type="button" id="boton-registro" class="btn btn-link">Inicia Sesion</button>
+                <button onclick="irInicioSeccion()" type="button" id="boton-registro" class="btn btn-link">Inicia Sesion</button>
             </div>
     
             </div>
         </footer>
     
     </div>
+    <script src="main-registro.js"></script>
 </body>
 </html>

@@ -27,10 +27,10 @@
 
             <form>
                 <div class="form-group">
-                    <input type="text" class="form-control" id="usuarioM" placeholder="Usuario Motorista">
+                    <input type="text" class="form-control" id="email" placeholder="Usuario Motorista">
                 </div>
                 <div class="form-group">
-                    <input type="password" class="form-control" id="contraseñaM" placeholder="Contraseña">
+                    <input type="password" class="form-control" id="contraseña" placeholder="Contraseña">
                 </div>
             </form>
 
@@ -41,11 +41,11 @@
     <footer class="contenido-3">
 
         <div class="botones">
-        <button onclick="irRegistro();" type="button" id="boton-entrar" class="btn btn-primary">Continuar</button>
+        <button onclick=" validadLogin()" type="button" id="boton-entrar" class="btn btn-primary">Continuar</button>
 
         <div class="contenido-4">
             <p>No tienes cuenta? </p>
-            <button type="button" id="boton-registro" class="btn btn-link">Registrarse</button>
+            <button onclick="irRegistro();"  type="button" id="boton-registro" class="btn btn-link">Registrarse</button>
         </div>
 
         </div>
